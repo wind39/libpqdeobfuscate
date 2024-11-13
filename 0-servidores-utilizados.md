@@ -42,7 +42,7 @@ docker run -d \
 Por ora, no servidor de certificados, nós só conectamos no container:
 
 ```
-docker exec -it client bash
+docker exec -it certserver bash
 ```
 
 E, dentro do container, atualizamos os pacotes:
